@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./quiz.css" />
+    <title>QUIZ GAME</title>
+  </head>
+  <body>
+    <div id="quiz-form">
+      <h1>SQUIZ GAME</h1>
+      <div class="time">
+        <h2 class="game-info">Time: <span id="time-remaining">100</span>s</h2>
+        <h2 class="game-info">Answer in: <span id="time-answer">5</span>s</h2>
+      </div>
+      <div id="question-container">
+        <h3 id="question" questionId="1"></h3>
+      </div>
+      <div id="button">
+        <button type="submit" id="yes-btn">YES</button>
+        <button type="submit" id="no-btn">NO</button>
+        <button type="submit" id="noIdea-btn">NO IDEA</button>
+      </div>
+    </div>
+    <script src="./quiz.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+/* @font-face {
+  font-family: "Creepy";
+  src: url(), url();
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/backGround.jpg);
+  font-family: "Nosifer", cursive;
+  color: whitesmoke;
+}
+.time {
+  display: flex;
+  justify-content: space-around;
+}
+#quiz-form {
+  width: 50%;
+  height: 70vh;
+  margin: auto;
+  padding-top: 40px;
+  text-align: center;
+}
+#quiz-form h1 {
+  color: red;
+}
+#question-container {
+  width: 100%;
+  min-height: 50%;
+  padding-top: 30px;
+}
+
+#button button {
+  width: 150px;
+  background-color: transparent;
+  outline-color: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: red;
+}
