@@ -1,2 +1,2 @@
-# Qiuz-game
+# Quiz-game
 Quiz game, funny quiz
